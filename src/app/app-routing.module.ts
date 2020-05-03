@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { WorkspaceComponent } from './workspace/workspace.component';
+import { WorkspaceComponent } from './home/components/workspace/workspace.component';
 import { LayoutComponent } from './layout/layout.component';
+//import { HomeComponent } from './home/components/home/home.component';
 
 
 const routes: Routes = [
@@ -17,11 +17,8 @@ const routes: Routes = [
       },
       {
         path: 'home', 
-        component: HomeComponent
-      },
-      {
-        path: 'workspace', 
-        component: WorkspaceComponent
+        //component: HomeComponent
+        loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
       }
     ]
   },
