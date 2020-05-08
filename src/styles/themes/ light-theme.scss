@@ -1,0 +1,81 @@
+@import '../styles.scss';
+
+:root {
+  --alan-color-primary: #34589C;
+  --alan-color-primary-rgb: 52,88,156;
+  --alan-color-primary-contrast: #ffffff;
+  --alan-color-primary-contrast-rgb: 255,255,255;
+  --alan-color-primary-shade: #2e4d89;
+  --alan-color-primary-tint: #4869a6;
+
+  --alan-color-secondary: #E6EFFF;
+  --alan-color-secondary-rgb: 230,239,255;
+  --alan-color-secondary-contrast: #000000;
+  --alan-color-secondary-contrast-rgb: 0,0,0;
+  --alan-color-secondary-shade: #cad2e0;
+  --alan-color-secondary-tint: #e9f1ff;
+
+  --alan-color-tertiary: #7044ff;
+  --alan-color-tertiary-rgb: 112,68,255;
+  --alan-color-tertiary-contrast: #ffffff;
+  --alan-color-tertiary-contrast-rgb: 255,255,255;
+  --alan-color-tertiary-shade: #633ce0;
+  --alan-color-tertiary-tint: #7e57ff;
+
+  --alan-color-success: #10dc60;
+  --alan-color-success-rgb: 16,220,96;
+  --alan-color-success-contrast: #ffffff;
+  --alan-color-success-contrast-rgb: 255,255,255;
+  --alan-color-success-shade: #0ec254;
+  --alan-color-success-tint: #28e070;
+
+  --alan-color-warning: #ffce00;
+  --alan-color-warning-rgb: 255,206,0;
+  --alan-color-warning-contrast: #ffffff;
+  --alan-color-warning-contrast-rgb: 255,255,255;
+  --alan-color-warning-shade: #e0b500;
+  --alan-color-warning-tint: #ffd31a;
+
+  --alan-color-danger: #f04141;
+  --alan-color-danger-rgb: 245,61,61;
+  --alan-color-danger-contrast: #ffffff;
+  --alan-color-danger-contrast-rgb: 255,255,255;
+  --alan-color-danger-shade: #d33939;
+  --alan-color-danger-tint: #f25454;
+
+  --alan-color-dark: #222428;
+  --alan-color-dark-rgb: 34,34,34;
+  --alan-color-dark-contrast: #ffffff;
+  --alan-color-dark-contrast-rgb: 255,255,255;
+  --alan-color-dark-shade: #1e2023;
+  --alan-color-dark-tint: #383a3e;
+
+  --alan-color-medium: #989aa2;
+  --alan-color-medium-rgb: 152,154,162;
+  --alan-color-medium-contrast: #ffffff;
+  --alan-color-medium-contrast-rgb: 255,255,255;
+  --alan-color-medium-shade: #86888f;
+  --alan-color-medium-tint: #a2a4ab;
+
+  --alan-color-light: #F6F7FA;
+  --alan-color-light-rgb: 244,244,244;
+  --alan-color-light-contrast: #000000;
+  --alan-color-light-contrast-rgb: 0,0,0;
+  --alan-color-light-shade: #d7d8da;
+  --alan-color-light-tint: #f5f6f9;
+
+  --alan-color-text: #3F3F3F;
+  --alan-color-text-contrast: #ffffff;
+
+  --alan-received-background: #F5F5F5;
+  --alan-sent-background: #E6EFFF;
+
+  --alan-received-text: #4B4B4B;
+  --alan-sent-text: #393939;
+
+  --alan-img-branding: 'bancoexample.svg';
+
+}
+
+
+
